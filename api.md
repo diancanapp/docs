@@ -1,7 +1,7 @@
 # api
 
 - **接口**
-  - [ ] [推送用户信息UserInfo](#user-info)
+  - [ ] [SaveUserInfo](#save-user-info)
   - [Event: 'close'](#event-close)
 
 ## 说明
@@ -17,7 +17,7 @@
 
 ## weapp接口 
 
-### UserInfo
+### Save User Info
 
 推送用户信息,后端保存
 
