@@ -1,51 +1,49 @@
 # diancan api
 
 - **API**
-  - [ ] [Save user info](#save-user-info)
-  - [ ] [Current user](#current-user)
-  - [ ] [My bonus](#my-bonus)
-  - [ ] [Make order](#make-order)
-  - [ ] [Pay order](#pay-order)
-  - [ ] [My orders](#my-orders)
-  - [ ] [Order detail](#order-detail)
-  - [ ] [Submit feedback](#submit-feedback)
-  - [X] [Weapp upload to qiniu](#weapp-upload-to-qiniu)
-  - [ ] [Wechat login](#wechat-login)
-  - [ ] [Login](#login)
-  - [ ] [Goods list](#goods-list)
-  - [ ] [Goods detail](#goods-detail)
-  - [ ] [Banner list](#banner-list)
-  - [ ] [Banner detail](#banner-detail)
-  - [ ] [Categories list](#categories-list)
-  - [ ] [Category detail](#category-detail)
-  - [ ] [Configs list](#configs-list)
-  - [ ] [Config detail](#config-detail)
-  - [ ] [Upload to qiniu](#upload-to-qiniu)
-  - [ ] [Add banner](#add-banner)
-  - [ ] [Delete banner](#delete-banner)
-  - [ ] [Modify banner](#modify-banner)
-  - [ ] [Bonuses list](#bonuses-list)
-  - [ ] [Bonus detail](#bonus-detail)
-  - [ ] [Add bonus](#add-bonus)
-  - [ ] [Delete bonus](#delete-bonus)
-  - [ ] [Modify bonus](#modify-bonus)
-  - [ ] [Add category](#add-category)
-  - [ ] [Delete category](#delete-category)
-  - [ ] [Modify category](#modify-category)
-  - [ ] [Add config](#add-config)
-  - [ ] [Delete config](#delete-config)
-  - [ ] [Modify config](#modify-config)
-  - [ ] [Feedbacks list](#feedbacks-list)
-  - [ ] [Feedbacks detail](#feedbacks-detail)
-  - [ ] [Delete feedback](#delete-feedback)
-  - [ ] [Modify feedback](#modify-feedback)
-  - [ ] [Add goods](#add-goods)
-  - [ ] [Delete goods](#delete-goods)
-  - [ ] [Modify goods](#modify-goods)
-  - [ ] [Orders list](#orders-list)
-  - [ ] [Order detail](#order-detail)
-  - [ ] [Delete order](#delete-order)
-  - [ ] [Modify order](#modify-order)
+  - [ ] [保存用户信息Save user info](#save-user-info)
+  - [ ] [获取当前用户Current user](#current-user)
+  - [ ] [获取我的红包My bonus](#my-bonus)
+  - [ ] [下单Make order](#make-order)
+  - [ ] [支付订单Pay order](#pay-order)
+  - [ ] [获取我的订单My orders](#my-orders)
+  - [ ] [获取订单详情Order detail](#order-detail)
+  - [ ] [提交反馈Submit feedback](#submit-feedback)
+  - [X] [上传至七牛云Weapp upload to qiniu](#weapp-upload-to-qiniu)
+  - [ ] [小程序登录Wechat login](#wechat-login)
+  - [ ] [登录后台管理Login](#login)
+  - [ ] [获取商品列表Goods list](#goods-list)
+  - [ ] [获取商品详情Goods detail](#goods-detail)
+  - [ ] [获取Banner列表Banner list](#banner-list)
+  - [ ] [获取Banner详情Banner detail](#banner-detail)
+  - [ ] [获取商品分类列表Categories list](#categories-list)
+  - [ ] [获取商品分类详情Category detail](#category-detail)
+  - [ ] [获取配置列表Configs list](#configs-list)
+  - [ ] [获取配置详情Config detail](#config-detail)
+  - [ ] [上传至七牛云Upload to qiniu](#upload-to-qiniu)
+  - [ ] [添加BannerAdd banner](#add-banner)
+  - [ ] [删除BannerDelete banner](#delete-banner)
+  - [ ] [修改BannerModify banner](#modify-banner)
+  - [ ] [获取红包列表Bonuses list](#bonuses-list)
+  - [ ] [获取红包详情Bonus detail](#bonus-detail)
+  - [ ] [添加红包Add bonus](#add-bonus)
+  - [ ] [删除红包Delete bonus](#delete-bonus)
+  - [ ] [修改红包Modify bonus](#modify-bonus)
+  - [ ] [添加商品分类Add category](#add-category)
+  - [ ] [删除商品分类Delete category](#delete-category)
+  - [ ] [修改商品分类Modify category](#modify-category)
+  - [ ] [添加配置Add config](#add-config)
+  - [ ] [删除配置Delete config](#delete-config)
+  - [ ] [修改配置Modify config](#modify-config)
+  - [ ] [获取反馈列列表Feedbacks list](#feedbacks-list)
+  - [ ] [获取反馈详情Feedbacks detail](#feedbacks-detail)
+  - [ ] [添加商品Add goods](#add-goods)
+  - [ ] [删除商品Delete goods](#delete-goods)
+  - [ ] [修改商品Modify goods](#modify-goods)
+  - [ ] [获取订单列表Orders list](#orders-list)
+  - [ ] [获取订单详情Order detail](#order-detail)
+  - [ ] [删除订单Delete order](#delete-order)
+  - [ ] [修改订单Modify order](#modify-order)
 
 
   管理后台要有角色的概念，区分运营人员和管理员，以便鉴权用户能否执行特定操作。
@@ -298,16 +296,6 @@ PUT /category/:id
 获取反馈详情，查看反馈的详情。此接口可能不需要，优先级低。
 
   GET /feedback/:id
-
-### Delete feedback
-
-删除反馈，删除反馈。此接口可能不需要，优先级低。
-
-  DELETE /feedback/:id
-
-### Modify feedback
-
-修改反馈。此接口可能不需要，优先级低。
 
 PUT /feedback/:id
 
